@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="display-3">
+    <p>Conversor De Moedas</p>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" [(ngModel)]="dolar" id="floatingInput" placeholder="Dólar:">
+    <label for="floatingInput">Digite a cotação do Dólar:</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" [(ngModel)]="euro" id="floatingInput" placeholder="Euro">
+    <label for="floatingInput">Digite a cotação do Euro:</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" [(ngModel)]="libra" id="floatingInput"
+      placeholder="Digite a cotação da Libra:">
+    <label for="floatingInput">Digite a cotação da Libra:</label>
+  </div>
+  <div class="form-floating mb-3">
+    <input type="number" class="form-control" [(ngModel)]="real" id="floatingInput" placeholder="Valor em Real:">
+    <label for="floatingInput">Valor em Real:</label>
+  </div>
+  <br><br>
+  <div>
+    <button (click)="calcu()">Converter</button>
+  </div>
+</div>
